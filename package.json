@@ -9,6 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage":"https://mwafg-gumma.github.io/myTailwind",
   "description": "",
   "devDependencies": {
     "tailwindcss": "^4.1.3"
