@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <!-- flex container -->
+        <div class="flex justify-between p-5 mx-auto space-x-2">
+            <div class="px-3">
+                <h1 class="text-2xl">Manage</h1>
+            </div>
+            <!-- flex links -->
+            <div class="md:flex hidden  items-center mt-2">
+                <a href="#" class="hover:text-sky-400 px-3">Pricing</a>
+                <a href="#" class="hover:text-sky-400 px-3">Products</a>
+                <a href="#" class="hover:text-sky-400 px-3">Community</a>
+                <a href="#" class="hover:text-sky-400 px-3">Careers</a>
+                <a href="#" class="hover:text-sky-400 px-3">About</a>
+            </div>
+            <!--  button -->
+            
+                <a href="#" class="py-3 px-5 hidden md:block bg-sky-500 hover:bg-sky-400  text-white rounded-full">
+                    Get Started
+                </a>
+            
+            <!-- Hamburger icon  -->
+                <button id="menu-btn" class="block md:hidden hamburger focus:outline-none ">
+                    <span class=" hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+        </div>
+        <!-- mobile menu -->
+            <div id="menu" class="absolute hidden  flex-col bg-white drop-shadow-md shadow py-7 px-20 mt-1 right-1  space-y-6 font-bold sm:w-auto sm:self-center  md:hidden">
+                <a href="#" class="px-20 mx-10">Pricing</a>
+                <a href="#" class="px-20 mx-10">Products</a>
+                <a href="#" class="px-20 mx-10">About</a>
+                <a href="#" class="px-20 mx-10">Community</a>
+            </div>
+    </nav>
+
+    <!-- hero -->
+
+    <section id="hero">
+        <!-- flex container -->
+        <div class="container flex flex-col md:flex-row justify-between items-center space-y-7 md:-space-y-7">
+            <!-- text container -->
+            <div class="md:w-1/2 flex flex-col md:px-7 ">
+                <h1 class="text-4xl md:text-5xl md:text-left text-center font-bold px-5">
+                    Bring Everyone Together to Build Better Products
+                </h1>
+                <p class="py-5 md:text-left text-center text-lg px-5">
+                    Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+                </p>
+                <!-- flex button -->
+                <div class="p-7  md:text-left text-center">
+                    <a href="#" class="py-3 px-5 bg-sky-500 hover:bg-sky-400 text-white rounded-full">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <!-- image container -->
+            <div class="md:w-4/5 md:my-20 ">
+                <img src="../image/main.jpg" class="w-full sm:w-3/4 md:w-auto " alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features">
+        <!-- features container -->
+        <div class="container flex flex-col md:flex-row justify-between  space-y-7 md:space-y-7">
+            <!-- what,s Different -->
+        <div class="md:flex-col space-y-7">
+            <h1 class="text-2xl md:text-4xl md:font-bold  mt-7 px-20 md:text-left">
+                What's Different about Mange ?
+            </h1>
+            <p class="text-1xl w-lg md:mx-7 px-10 text-gray-500">
+                Manage provides all the functionality your team needs, without the complexity. 
+                Our software is tailor-made for modern digital product teams.
+            </p>
+        </div>
+        <!-- number List -->
+            <div class="flex flex-col space-x-7 md:w-1/2 space-y-20">
+                <!-- list item 1 -->
+                <div class="flex flex-col space-y-3 md:space-x-2 justify-between mx-7  items-center md:flex-row ">
+                    <!-- heading -->
+                        <div class="rounded-full">
+                            <div class="flex items-center space-x-10 bg-sky-400 md:bg-transparent rounded-full">
+                                <div class="px-3 py-2 text-white rounded-full bg-sky-600">
+                                    01
+                                </div>
+                                <h3 class="text-base font-bold ">
+                                    Track Company-wide Progress
+                                </h3>
+                            </div>
+                            <p class=" md:block text-lg px-3 py-2">
+                                See how your day-to-day tasks fit into the wider vision. Go from the kanban board to a timeline view in seconds. 
+                                Our powerful analytics will keep your whole team in sync.
+                            </p>
+                        </div>
+                        
+                </div>
+
+                    <!-- list item 2 -->
+                        <div class="flex flex-col space-y-3 md:space-x-2 justify-between mx-7  items-center md:flex-row ">
+                            <!-- heading -->
+                                <div class="rounded-full">
+                                    <div class="flex items-center space-x-10 bg-sky-400 md:bg-transparent rounded-full">
+                                        <div class="px-3 py-2 text-white rounded-full bg-sky-600">
+                                            01
+                                        </div>
+                                        <h3 class="text-base font-bold ">
+                                            Track Company-wide Progress
+                                        </h3>
+                                    </div>
+                                    <p class=" md:block text-lg px-3 py-2">
+                                        See how your day-to-day tasks fit into the wider vision. Go from the kanban board to a timeline view in seconds. 
+                                        Our powerful analytics will keep your whole team in sync.
+                                    </p>
+                                </div>
+                                
+                        </div>
+
+                <!-- list item 1 -->
+                <div class="flex flex-col space-y-3 md:space-x-2 justify-between mx-7  items-center md:flex-row ">
+                    <!-- heading -->
+                        <div class="rounded-full">
+                            <div class="flex items-center space-x-10 bg-sky-400 md:bg-transparent rounded-full">
+                                <div class="px-3 py-2 text-white rounded-full bg-sky-600">
+                                    01
+                                </div>
+                                <h3 class="text-base font-bold ">
+                                    Track Company-wide Progress
+                                </h3>
+                            </div>
+                            <p class=" md:block text-lg px-3 py-2">
+                                See how your day-to-day tasks fit into the wider vision. Go from the kanban board to a timeline view in seconds. 
+                                Our powerful analytics will keep your whole team in sync.
+                            </p>
+                        </div>
+                        
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- test -->
+    <section id="test" >
+        <!-- text head -->
+        <div class="max-w-6xl px-5 mt-20 text-center mx-auto">
+            <!-- header -->
+                    <h2 class="text-4xl font-bold ">
+                        What,s Different about Mange ?
+                    </h2>
+                    <!-- test container -->
+                <div class="container flex flex-col md:flex-row justify-center   mt-10 spaces-x-7">
+                    <!-- test 1 -->
+                        <div class="flex flex-col items-center p-10 bg-gray-200 mx-2 my-3 rounded-lg">
+                            <img src="../image/avatar-ali.png" class="w-30 " alt="">
+                            <h2 class="text-lg font-bold py-4 ">Anisha li</h2>
+                            <p class="text-sm">
+                                “Manage has supercharged our team’s workflow. The ability to maintain  visibility 
+                                on larger milestones at all times keeps everyone motivated.”
+                            </p>
+                        </div>
+                    <!-- test 1 -->
+                        <div class="flex flex-col items-center p-10 bg-gray-200  mx-2 my-3  rounded-lg">
+                            <img src="../image/avatar-shanai.png" class="w-30 " alt="">
+                            <h2 class="text-lg font-bold py-4 ">Anisha li</h2>
+                            <p class="text-sm">
+                                “Manage has supercharged our team’s workflow. The ability to maintain  visibility 
+                                on larger milestones at all times keeps everyone motivated.”
+                            </p>
+                        </div>
+                    <!-- test 1 -->
+                        <div class="flex flex-col items-center p-10 bg-gray-200  mx-2 my-3 rounded-lg">
+                            <img src="../image/avatar-anisha.png" class="w-30 " alt="">
+                            <h2 class="text-lg font-bold py-4 ">Anisha li</h2>
+                            <p class="text-sm">
+                                “Manage has supercharged our team’s workflow. The ability to maintain  visibility 
+                                on larger milestones at all times keeps everyone motivated.”
+                            </p>
+                        </div>
+                    <!-- test 1 -->
+                        <div class="flex flex-col items-center p-10 bg-gray-200 mx-2 rounded-lg">
+                            <img src="../image/avatar-richard.png" class="w-30 " alt="">
+                            <h2 class="text-lg font-bold py-4 ">Anisha li</h2>
+                            <p class="text-sm">
+                                “Manage has supercharged our team’s workflow. The ability to maintain  visibility 
+                                on larger milestones at all times keeps everyone motivated.”
+                            </p>
+                        </div>
+                </div>
+                <div class="px-3 mt-10">
+                <a href="#" class="py-3 px-6  bg-sky-500 hover:bg-sky-400  text-white rounded-full">
+                        Get Started
+                    </a>
+                </div>
+        </div>
+    </section>
+
+    <!-- team work -->
+    <section id="team">
+        <!-- flex team -->
+        <div class=" flex bg-sky-400 flex-col md:flex-row justify-between items-center mt-20">
+            <div class=" px-7 py-10 " >
+                <h1 class="text-white font-bold text-2xl md:text-4xl">
+                    Simplify how your team works <br>
+                    today.
+                </h1>
+            </div>
+                <a href="#" class="md:py-3 md:px-6 py-3 px-6 mb-7 md:mx-10   bg-black hover:bg-white hover:text-black text-white rounded-full">
+                    Get Started
+                </a>
+        </div>
+    </section>
+
+    <!-- footer -->
+        <section id="footer">
+            <!-- footer flex -->
+                <div class=" flex md:flex-row flex-col justify-between items-center py-10 px-7 bg-slate-800">
+                    <!-- first side -->
+                        <div class="flex flex-col">
+                            <h1 class="text-4xl md:text-4xl font-bold text-white px-7 py-2">
+                                Manage
+                            </h1>
+                            <div class="px-7 py-3 flex flex-row ">
+                                <img src="../image/icon-facebook.svg" class="mx-2" alt="">
+                                <img src="../image/icon-instagram.svg" class="mx-2" alt="">
+                                <img src="../image/icon-twitter.svg"  class="mx-2">
+                                <img src="../image/icon-youtube.svg" class="mx-2" alt="">
+                            </div>
+                        </div>
+                        <!-- second side -->
+                            <div class="flex flex-row justify-between items-center px-10 py-7">
+                                <!-- links 1 -->
+                                    <div class="px-7 py-10 flex flex-col">
+                                        <a href="#" class="text-white hover:text-sky-400 text-2xl">Home</a>
+                                        <a href="#" class="text-white hover:text-sky-400 text-2xl"> Pricing</a>
+                                        <a href="#" class="text-white hover:text-sky-400 text-2xl">Products</a>
+                                        <a href="#" class="text-white hover:text-sky-400 text-2xl">About</a>
+                                    </div>
+                                    <!-- link2 2 -->
+                                    <div class="px-7 -mt-7 flex flex-col">
+                                        <a href="#" class="text-white hover:text-sky-400 text-2xl">Careers</a>
+                                        <a href="#" class="text-white hover:text-sky-400 text-2xl"> Community</a>
+                                        <a href="#" class="text-white hover:text-sky-400 text-2xl">Privacy Policy</a>
+                                    </div>
+                            </div>
+                            <!-- last side -->
+                            <div class=" flex flex-row px-7 my-7">
+                                <input type="text" placeholder="update InBox" class="border bg-white w-80 rounded md px-4 py-2 focus:outline-none">
+                                <div class="px-3 mt-2 ">
+                                    <a href="#" class="py-2 px-5 bg-sky-500 hover:bg-white hover:text-black text-white rounded-full">
+                                        GO
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+        </section>
+
+        <script src="./script.js"></script>
+</body>
+</html>
